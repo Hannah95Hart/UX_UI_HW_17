@@ -2,31 +2,62 @@
   display:inline-block;
   vertical-align:text-top;
 }
+h1 {
+  display:inline-block;
+  vertical-align: top;
+}
+
 .logo{
   width:23%;
   padding:1%;
+  border: 5px solid #8c6658;
 }
 nav .inline-block{
-  width:73%;
-  padding:1%;
+  width:800%;
+  padding:100%;
 }
 ul{
   list-style-type: none;
-  width:50%;
-  margin-left:auto;
+  width:200%;
+  margin:20px;
+}
+li{
+  float:left;
+}
+li {
+  border-right: 1px solid #8c6658;
+}
+
+li:last-child {
+  border-right: none;
+}
+a{
+  display:block;
+  padding:8px;
 }
 .logo{
   text-align:center;
+  height:50px;
+
 }
 .heroImg{
   height:600px;
   padding:25px;
+  float:left;
 }
 text{
-  width:500px;
+  font-size: 40px;
+  float:right;
+  width:400px;
   margin: 0 auto;
 }
+
 footer{
-  background-color:#373738;
-  
+    color:white;
+    background-color:#8c6658;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    position: relative;
+    clear: both;
 }
